@@ -15,12 +15,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include  # ✅ Add 'include' here
+from django.urls import path, include
+from django.http import HttpResponse  # ✅ Import HttpResponse
+
+# ✅ Define the home function
+def home(request):
+    return HttpResponse("Welcome to the Recipe App API")  
 
 urlpatterns = [
-    path('', home),
+    path('', home), 
     path('admin/', admin.site.urls),
-    path('api/', include('recipes.urls')),  # Include Recipes API
+    path('api/', include('recipes.urls')),
 ]
 
 
