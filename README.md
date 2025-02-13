@@ -14,7 +14,6 @@
 👉 **Recipe Categories** – Organize recipes (Breakfast, Lunch, Dinner, Dessert)  
 👉 **Search & Filter** – Find recipes by name or category  
 👉 **Favorites** – Save your favorite recipes for quick access  
-👉 **Ratings & Comments** – Rate recipes and share feedback  
 👉 **Image Uploads** – Upload pictures of your dishes  
 👉 **Dark Mode** – Toggle between light and dark mode  
 
