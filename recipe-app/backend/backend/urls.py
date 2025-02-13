@@ -18,7 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponse  # ✅ Import HttpResponse
 
-# ✅ Define the home function
 def home(request):
     return HttpResponse("Welcome to the Recipe App API")  
 
