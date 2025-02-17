@@ -14,7 +14,7 @@ const Home = () => {
       <div className="relative bg-white bg-opacity-20 backdrop-blur-lg rounded-2xl shadow-2xl p-10 text-center max-w-xl border border-white border-opacity-30">
         {/* Title with Glow */}
         <h1 className="text-5xl font-extrabold mb-4 text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
-          🍽️ Welcome to Recipe App
+          🍽️ Welcome to Food App
         </h1>
 
         {/* Description */}
